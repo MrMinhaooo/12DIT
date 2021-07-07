@@ -6,10 +6,11 @@ def not_blank(question):
     while not valid:
         response = input(question)
 
-    while response != "":
-        return response
-    else:
-        print("This can't be be blank please enter a name")
+        while response != "":
+           return response
+        else:
+            print("This can't be be blank please enter a name")
+
 
 # main routine goes here
 
