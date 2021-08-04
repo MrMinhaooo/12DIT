@@ -7,7 +7,7 @@ def not_blank(question):
         response = input(question)
 
         while response != "":
-           return response
+            return response
         else:
             print("This can't be be blank please enter a name")
 
