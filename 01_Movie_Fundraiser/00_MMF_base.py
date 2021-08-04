@@ -26,8 +26,8 @@ def not_blank(question):
 # Start of the loop
 
 # checks for an integer more than 0
-def int_check(question,):
-    error ="Please enter a number between 12 and 130"
+def int_check(question):
+    error = "Please enter a number between 12 and 130"
 
     valid = False
     while not valid:
@@ -81,7 +81,7 @@ while name != "xxx" and count <= MAX_TICKETS:
 
 # End of tickets loop
 
-#Calcuate profit etc...
+# Calculate profit etc...
 if count == MAX_TICKETS:
     print("You have sold all the available tickets!")
 else:
