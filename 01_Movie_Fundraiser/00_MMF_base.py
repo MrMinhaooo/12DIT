@@ -27,7 +27,7 @@ def not_blank(question):
 
 # checks for an integer more than 0
 def int_check(question):
-    error = "Please enter a number between 12 and 130"
+    error = "Please enter a whole number between 12 and 130"
 
     valid = False
     while not valid:
