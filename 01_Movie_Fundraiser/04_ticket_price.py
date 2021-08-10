@@ -3,7 +3,7 @@ profit = o
 name = ""
 while name != "xxx":
 
-    name = input("Name: ") # replace with function call
+    name = input("Name: ")  # replace with function call
 
     # If name is exit cod, break out of loop
     if name == "xxx":

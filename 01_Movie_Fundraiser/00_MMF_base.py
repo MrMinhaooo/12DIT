@@ -98,6 +98,6 @@ print("Profit from Tickets:${:.2f}".format(ticket_profit))
 if ticket_count == MAX_TICKETS:
     print("You have sold all the available tickets!")
 else:
-    print("You have sold {} tickets.   \n"
+    print("You have sold {} tickets.  \n"
           "There are {} places still available."
           .format(ticket_count, MAX_TICKETS - ticket_count))
