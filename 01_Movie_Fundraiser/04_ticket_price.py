@@ -1,4 +1,4 @@
-profit = o
+profit = 0
 
 name = ""
 while name != "xxx":
